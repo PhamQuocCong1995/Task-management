@@ -278,7 +278,6 @@ a {
     background: #282c30;
     box-shadow: 1px 8px 45px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    transition: 0.25s;
 }
 
 .hero-cta__btn:hover {
@@ -686,4 +685,74 @@ a {
     border-radius: 50%;
     bottom: -66px;
     left: -121px;
+}
+
+/* Help */
+.help {
+    padding-top: 140px;
+}
+
+.help__inner {
+    background: #282c30;
+    border-radius: 27px;
+    padding: 71px 50px 53px;
+}
+
+.help__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help__top-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    background: #0cce84;
+    border-radius: 50%;
+}
+
+.help__top-icon-cloud {
+    background: #ef8f00;
+}
+
+.help__top-icon-support {
+    background: #ae8ff9;
+}
+
+.help__top-bar {
+    width: 195px;
+    border: 1px dashed #858b93;
+    margin: 0 59px;
+}
+
+.help__bottom {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.help-item {
+    width: 238px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help-item__label {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1.45;
+    color: #f9f9f9;
+}
+
+.help-item__desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #858b93;
+    text-align: center;
 }
