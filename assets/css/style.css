@@ -65,9 +65,9 @@ a {
 }
 
 .section-heading {
-    font-weight: 700;
-    font-size: 6rem;
-    line-height: 1.17;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 1.25;
     color: #f9f9f9;
 }
 
@@ -755,4 +755,114 @@ a {
     line-height: 1.62;
     color: #858b93;
     text-align: center;
+}
+
+/* Task number */
+.tasknumber {
+    margin-top: 140px;
+}
+
+.tasknumber__container {
+    width: 1162px;
+}
+
+.tasknumber__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tasknumber__content {
+    width: 46%;
+}
+
+.tasknumber__heading {
+    width: 368px;
+}
+
+.tasknumber__heading strong {
+    background: linear-gradient(90deg, #eb9204 -33.14%, #83e868 116.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tasknumber__desc {
+    width: 537px;
+    margin-top: 22px;
+}
+
+.tasknumber__group {
+    margin-top: 86px;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 17px;
+}
+
+.tasknumber-item {
+    width: 132px;
+    height: 127px;
+    background: #272633;
+    border-radius: 9px;
+    padding: 21px 22px 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasknumber-item:hover {
+    background: linear-gradient(
+        191.94deg,
+        #c4f566 -43.72%,
+        #ae8ef9 -5.87%,
+        #ef8f00 52.36%,
+        #61e559 122.78%
+    );
+    cursor: pointer;
+}
+
+.tasknumber-item:hover .tasknumber-item__name {
+    color: #f9f9f9;
+}
+
+.tasknumber-item__data {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #f9f9f9;
+}
+
+.tasknumber-item__name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: #858b93;
+    margin-top: 6px;
+}
+
+.tasknumber-item__group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasknumber-item__dots {
+    display: flex;
+    text-align: center;
+    column-gap: 5px;
+}
+
+.tasknumber-item__dot {
+    width: 6px;
+    height: 6px;
+    background: rgba(249, 249, 249, 0.3);
+    border-radius: 50%;
+}
+
+.tasknumber-item__dot--active {
+    background: #ef8f00;
+}
+
+.tasknumber-item__down {
+    margin-top: 34px;
 }
